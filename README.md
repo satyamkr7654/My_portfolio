@@ -1,74 +1,172 @@
-# Satyam Kumar - Developer Portfolio
+# 🚀 Satyam Portfolio
 
-A professional, modern, and fully responsive developer portfolio built with React. It showcases my technical skills, featured projects, certifications, and professional training.
+A modern **personal developer portfolio website** built using **React
+and Vite**. This project showcases projects, skills, contact
+information, and interactive UI animations.
 
-## Features
+The portfolio is designed to be **fast, responsive, and visually
+engaging**.
 
-- **Modern UI/UX**: Clean, responsive, and professional design that works flawlessly on mobile, tablet, and desktop devices.
-- **Dark/Light Theme**: Seamless theme switching using React Context for a personalized user experience.
-- **Scroll Reveal Animations**: Custom IntersectionObserver hooks trigger smooth fade-in and slide-up animations as elements enter the viewport.
-- **Active Navigation Tracking**: The navbar dynamically highlights the current section as you scroll through the page.
-- **Interactive Certifications Carousel**: A custom-built, auto-playing carousel with thumbnail navigation and a full-screen lightbox view.
-- **Functional Contact Form**: Integrated with Formspree for real-time email delivery, complete with custom client-side validation and success/error UI states.
-- **Accessible & SEO Optimized**: Includes semantic HTML, proper ARIA attributes, keyboard navigation support (skip-to-content), and Open Graph meta tags for rich social sharing.
-- **Optimized Performance**: Efficient rendering using `useMemo` for complex animations (like background particles).
+------------------------------------------------------------------------
 
-## Technologies Used
+# 📌 Features
 
-- **Core**: React.js, Vite
-- **Styling**: Vanilla CSS3 (Custom properties, Flexbox/Grid)
-- **Icons**: `react-icons` (Feather set)
-- **API Integration**: Formspree (Contact form submissions)
+-   Responsive modern UI
+-   Smooth animations using Framer Motion
+-   Interactive particle background
+-   Scroll navigation
+-   Contact form integration
+-   Clean and minimal design
+-   Fast development using Vite
 
-## Getting Started
+------------------------------------------------------------------------
 
-To run this project locally on your machine, follow these steps:
+# 🛠 Technologies Used
 
-### Prerequisites
+Frontend Technologies:
 
-Ensure you have [Node.js](https://nodejs.org/) installed on your local machine.
+-   React.js
+-   Vite
+-   JavaScript (ES6+)
+-   HTML5
+-   CSS3
 
-### Installation
+Libraries and Tools:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/satyamkr7654/My_portfolio.git
-   ```
+-   Framer Motion
+-   React Icons
+-   React Scroll
+-   React Intersection Observer
+-   TSParticles
+-   EmailJS
 
-2. Navigate into the project directory:
-   ```bash
-   cd "My portfolio" 
-   ```
+Development Tools:
 
-3. Install the required dependencies:
-   ```bash
-   npm install
-   ```
+-   Node.js
+-   npm
+-   Vite Dev Server
 
-4. Start the local development server:
-   ```bash
-   npm run dev
-   ```
+------------------------------------------------------------------------
 
-5. Open your browser and visit `http://localhost:5173`.
+# 📂 Project Structure
 
-## Folder Structure
+    My_portfolio
+    │
+    ├── public
+    ├── src
+    │   ├── components
+    │   ├── assets
+    │   ├── App.jsx
+    │   ├── main.jsx
+    │
+    ├── index.html
+    ├── package.json
+    ├── vite.config.js
+    └── README.md
 
-- `/public`: Contains static assets like images, CV, and certificates.
-- `/src/components`: Reusable React UI components (Hero, About, Projects, Contact, etc.).
-- `/src/context`: React Context providers (like `ThemeContext.jsx`).
-- `/src/hooks`: Custom React hooks (`useScrollReveal.js`).
-- `/index.html`: Main HTML template with SEO meta tags.
+------------------------------------------------------------------------
 
-## Customization
+# ⚙️ Prerequisites
 
-If you are using this template:
-- **Contact Form**: Update the fetch URL in `src/components/Contact.jsx` with your own [Formspree](https://formspree.io/) endpoint.
-- **Personal Data**: Modify the data arrays and text inside the individual components (`Skills.jsx`, `Projects.jsx`, `Certifications.jsx`, etc.).
-- **Resume**: Replace `/public/Satyam_Kumar_CV.pdf` with your own resume file.
+Before running this project, install:
 
-## Contact
+-   **Node.js (version 18 or higher)**
+-   **npm**
+-   A code editor like **VS Code**
 
-Satyam Kumar - [satyamkumartech18@gmail.com](mailto:satyamkumartech18@gmail.com)
-LinkedIn: [linkedin.com/in/satyamkr7654](https://www.linkedin.com/in/satyamkr7654/)
-GitHub: [github.com/satyamkr7654](https://github.com/satyamkr7654)
+Check installation:
+
+``` bash
+node -v
+npm -v
+```
+
+------------------------------------------------------------------------
+
+# 📥 Installation
+
+Clone the repository:
+
+``` bash
+git clone https://github.com/your-username/satyam-portfolio.git
+```
+
+Move into the project folder:
+
+``` bash
+cd satyam-portfolio
+```
+
+Install dependencies:
+
+``` bash
+npm install
+```
+
+------------------------------------------------------------------------
+
+# ▶️ Run the Project
+
+Start the development server:
+
+``` bash
+npm run dev
+```
+
+Open your browser and visit:
+
+    http://localhost:5173
+
+------------------------------------------------------------------------
+
+# 📦 Build for Production
+
+Create production build:
+
+``` bash
+npm run build
+```
+
+Preview production build:
+
+``` bash
+npm run preview
+```
+
+------------------------------------------------------------------------
+
+# 📧 Contact Form Setup
+
+This project uses **EmailJS** to send messages from the contact form.
+
+Steps:
+
+1.  Create an account on EmailJS
+2.  Create an email service
+3.  Create an email template
+4.  Replace the EmailJS keys in the project with your own credentials
+
+------------------------------------------------------------------------
+
+# 🌍 Deployment
+
+You can deploy this portfolio on:
+
+-   Vercel
+-   Netlify
+-   GitHub Pages
+-   Firebase Hosting
+
+Recommended: **Vercel or Netlify**.
+
+------------------------------------------------------------------------
+
+# 👨‍💻 Author
+
+**Satyam Kumar**
+
+------------------------------------------------------------------------
+
+# ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub.
