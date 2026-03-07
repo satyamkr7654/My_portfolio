@@ -1,0 +1,122 @@
+.training {
+    position: relative;
+}
+
+.dark.training {
+    background: var(--bg-dark);
+}
+
+.light.training {
+    background: var(--bg-light);
+}
+
+.training-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.training-icon-wrap {
+    flex-shrink: 0;
+    width: 64px;
+    height: 64px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dark .training-icon-wrap {
+    background: rgba(0, 245, 255, 0.08);
+    color: var(--accent-cyan);
+    border: 1px solid rgba(0, 245, 255, 0.15);
+}
+
+.light .training-icon-wrap {
+    background: rgba(59, 130, 246, 0.08);
+    color: var(--accent-blue);
+    border: 1px solid rgba(59, 130, 246, 0.15);
+}
+
+.training-badge {
+    display: inline-block;
+    padding: 4px 14px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+.dark .training-badge {
+    background: rgba(139, 92, 246, 0.1);
+    color: #a78bfa;
+    border: 1px solid rgba(139, 92, 246, 0.2);
+}
+
+.light .training-badge {
+    background: rgba(139, 92, 246, 0.08);
+    color: #7c3aed;
+    border: 1px solid rgba(139, 92, 246, 0.15);
+}
+
+.training-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.dark .training-title {
+    color: var(--text-dark-primary);
+}
+
+.light .training-title {
+    color: var(--text-light-primary);
+}
+
+.training-points {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.training-point {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.dark .training-point {
+    color: var(--text-dark-secondary);
+}
+
+.light .training-point {
+    color: var(--text-light-secondary);
+}
+
+.training-point svg {
+    flex-shrink: 0;
+    margin-top: 3px;
+}
+
+.dark .training-point svg {
+    color: var(--accent-cyan);
+}
+
+.light .training-point svg {
+    color: var(--accent-blue);
+}
+
+@media (max-width: 600px) {
+    .training-card {
+        flex-direction: column;
+        gap: 24px;
+        padding: 24px;
+    }
+}

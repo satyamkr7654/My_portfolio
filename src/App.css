@@ -1,0 +1,8 @@
+/* App.css */
+.dark main {
+    background: var(--bg-dark);
+}
+
+.light main {
+    background: var(--bg-light);
+}

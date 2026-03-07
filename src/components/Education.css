@@ -1,0 +1,209 @@
+/* ============ EDUCATION SECTION ============ */
+.education {
+    position: relative;
+    padding-bottom: 120px;
+}
+
+.dark.education {
+    background: var(--bg-dark);
+}
+
+.light.education {
+    background: var(--bg-light);
+}
+
+/* ---- Timeline wrapper ---- */
+.timeline {
+    max-width: 720px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+/* ---- Each row: [dot] [line] [card] ---- */
+.timeline-item {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 0;
+}
+
+/* ---- Dot column ---- */
+.timeline-dot {
+    flex: 0 0 60px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 24px;
+}
+
+.timeline-dot span {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.dark .timeline-dot span {
+    background: var(--bg-dark-2);
+    border: 2px solid rgba(0, 245, 255, 0.3);
+    box-shadow: 0 0 20px rgba(0, 245, 255, 0.1);
+}
+
+.dark .timeline-item.current .timeline-dot span {
+    border-color: var(--accent-cyan);
+    box-shadow: 0 0 30px rgba(0, 245, 255, 0.3);
+}
+
+.light .timeline-dot span {
+    background: var(--bg-light-2);
+    border: 2px solid rgba(59, 130, 246, 0.3);
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.1);
+}
+
+.light .timeline-item.current .timeline-dot span {
+    border-color: var(--accent-blue);
+    box-shadow: 0 0 30px rgba(59, 130, 246, 0.2);
+}
+
+/* ---- Vertical line column ---- */
+.timeline-line {
+    flex: 0 0 2px;
+    margin: 0 20px;
+    background: linear-gradient(to bottom, rgba(0, 245, 255, 0.4), rgba(0, 245, 255, 0.05));
+}
+
+.light .timeline-line {
+    background: linear-gradient(to bottom, rgba(59, 130, 246, 0.4), rgba(59, 130, 246, 0.05));
+}
+
+.timeline-item:last-child .timeline-line {
+    visibility: hidden;
+}
+
+/* ---- Card column ---- */
+.timeline-card {
+    flex: 1 1 0;
+    min-width: 0;
+    padding: 24px;
+    margin-bottom: 28px;
+    position: relative;
+}
+
+/* ---- Current badge ---- */
+.current-badge {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    padding: 3px 12px;
+    border-radius: 20px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #00f5ff, #8b5cf6);
+    color: #0a0a0f;
+    white-space: nowrap;
+}
+
+.light .current-badge {
+    background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+    color: #fff;
+}
+
+/* ---- Card content ---- */
+.edu-degree {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+    padding-right: 80px;
+}
+
+.dark .edu-degree {
+    color: var(--text-dark-primary);
+}
+
+.light .edu-degree {
+    color: var(--text-light-primary);
+}
+
+.edu-institution {
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+
+.dark .edu-institution {
+    color: var(--accent-cyan);
+}
+
+.light .edu-institution {
+    color: var(--accent-blue);
+}
+
+.edu-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.edu-meta-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.82rem;
+}
+
+.dark .edu-meta-item {
+    color: var(--text-dark-secondary);
+}
+
+.light .edu-meta-item {
+    color: var(--text-light-secondary);
+}
+
+.edu-meta-item.grade {
+    font-weight: 700;
+}
+
+.dark .edu-meta-item.grade {
+    color: var(--accent-cyan);
+}
+
+.light .edu-meta-item.grade {
+    color: var(--accent-blue);
+}
+
+/* ---- Mobile ---- */
+@media (max-width: 500px) {
+    .timeline-dot {
+        flex: 0 0 44px;
+        padding-top: 20px;
+    }
+
+    .timeline-dot span {
+        width: 36px;
+        height: 36px;
+        font-size: 1rem;
+    }
+
+    .timeline-line {
+        margin: 0 12px;
+    }
+
+    .timeline-card {
+        padding: 16px;
+    }
+
+    .edu-degree {
+        font-size: 0.9rem;
+        padding-right: 60px;
+    }
+}
