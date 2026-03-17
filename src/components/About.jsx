@@ -40,7 +40,7 @@ export default function About() {
                                 <span className="stat-label">Projects Built</span>
                             </div>
                             <div className="stat">
-                                <span className="stat-num">1K+</span>
+                                <span className="stat-num">100+</span>
                                 <span className="stat-label">DSA Problems</span>
                             </div>
                             <div className="stat">
