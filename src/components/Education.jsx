@@ -24,7 +24,7 @@ const educationData = [
         current: false,
     },
     {
-        degree: 'Matriculation – 81.6%',
+        degree: 'Matriculation',
         institution: "St. Paul's English School",
         location: 'Nalanda',
         period: 'Mar 2019 – Feb 2020',
