@@ -15,7 +15,7 @@ const projects = [
             '100% data integrity maintained during testing',
         ],
         tech: ['HTML', 'CSS', 'PHP', 'MySQL'],
-        github: 'https://github.com/satyamkr7654/disaster-management-system',
+        github: 'https://github.com/satyamkr7654/disastermanagement',
         live: null,
         color: '#00f5ff',
     },
