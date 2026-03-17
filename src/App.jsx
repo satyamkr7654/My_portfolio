@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
 import Skills from './components/Skills'
+import Achievements from './components/Achievements'
 import Projects from './components/Projects'
 import Training from './components/Training'
 import Certifications from './components/Certifications'
@@ -20,6 +21,7 @@ function App() {
                 <Hero />
                 <About />
                 <Skills />
+                <Achievements />
                 <Projects />
                 <Training />
                 <Certifications />
