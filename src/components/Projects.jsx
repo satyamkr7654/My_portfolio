@@ -29,7 +29,7 @@ const projects = [
             '30% faster than array-based baseline implementation',
         ],
         tech: ['Java', 'DSA', 'OOP', 'Linked Lists', 'Priority Queues'],
-        github: 'https://github.com/satyamkr7654/railway-management-system',
+        github: 'https://github.com/satyamkr7654/Railway_management',
         live: null,
         color: '#8b5cf6',
     },
