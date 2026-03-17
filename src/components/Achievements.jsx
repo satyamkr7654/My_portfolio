@@ -22,6 +22,7 @@ export default function Achievements() {
                     </div>
                     <div className="achievement-content">
                         <h3 className="achievement-title">YouTube Content Creator</h3>
+                        <h4 className="achievement-subtitle">Panda Vlog Hub</h4>
                         <div className="achievement-stats">
                             <div className="stat-badge">
                                 <FiTrendingUp size={16} />
@@ -35,6 +36,14 @@ export default function Achievements() {
                         <p className="achievement-desc">
                             Developed and managed a YouTube channel, growing the audience to over 4,500 subscribers and achieving platform monetization. Generated steady income through strategic content creation, active audience engagement, and continuous performance optimization. This experience strongly demonstrates practical skills in digital marketing, community building, and content growth strategies.
                         </p>
+                        <a 
+                            href="https://youtube.com/@pandavloghub?si=dMRXSx7dzerZT5bJ" 
+                            target="_blank" 
+                            rel="noopener noreferrer" 
+                            className="achievement-btn"
+                        >
+                            Visit Channel
+                        </a>
                     </div>
                 </div>
             </div>
