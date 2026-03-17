@@ -10,7 +10,7 @@ const educationData = [
         institution: 'Lovely Professional University',
         location: 'Punjab',
         period: 'Aug 2024 – Present',
-        grade: 'CGPA: 6.57',
+        grade: 'CGPA: 7',
         icon: '🎓',
         current: true,
     },
